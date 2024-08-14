@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# Buat cors aja disini
+# Enable CORS middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  
@@ -70,3 +70,9 @@ def create_message(message: MessageCreate, db: Session = Depends(get_db)):
 def get_messages(db: Session = Depends(get_db)):
     messages = db.query(Message).order_by(Message.timestamp).all()
     return messages
+
+@app.delete("/messages/", status_code=200)
+def delete_all_messages(db: Session = Depends(get_db)):
+    db.query(Message).delete()
+    db.commit()
+    return {"message": "All messages have been successfully deleted."}
