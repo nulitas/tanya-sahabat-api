@@ -20,29 +20,23 @@ Demo Video : https://drive.google.com/file/d/1k3OCqK_uj-hchxEkp_jE9aVRDnOKyFOv/v
 
 ## Screenshot
 
-Beberapa screenshot untuk tampilan pada website TanyaSahabat.
+Beberapa screenshot untuk tampilan untuk TanyaSahabatApi.
 
-### Home Page
+### API Docs
 
 Seperti ini.
 
-![](https://raw.githubusercontent.com/nulitas/tanya-sahabat/main/public/screenshots/home.png)
+![](https://raw.githubusercontent.com/nulitas/tanya-sahabat-api/main/img/ApiDocs.png)
 
-### Tampilan Chat
+### Databasee
 
-![](https://raw.githubusercontent.com/nulitas/tanya-sahabat/main/public/screenshots/chat.png)
-
-### Simpan ke PDF
-
-![](https://raw.githubusercontent.com/nulitas/tanya-sahabat/main/public/screenshots/simpan.png)
-
-## Hapus Percakapan
-
-Hapus semua percakapan dalam sekejap.
-
-![](https://raw.githubusercontent.com/nulitas/tanya-sahabat/main/public/screenshots/hapus.png)
+![](https://raw.githubusercontent.com/nulitas/tanya-sahabat-api/main/img/Database.png)
 
 ## Usage
+
+```bash
+uvicorn main:app --reload
+```
 
 ### Bug / Feature Request
 
