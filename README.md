@@ -1,53 +1,24 @@
-# TanyaSahabat
+# TanyaSahabat API (Backend)
 
-<table>
-<tr>
-<td>
-Aplikasi website asisten virtual yang memungkinkan pengguna berinteraksi melalui pengaturan percakapan (chat). Antarmuka dapat menerima pertanyaan, memberikan jawaban, dan menyimpan histori percakapan.
-</td>
-</tr>
-</table>
+> The backend API infrastructure powering the TanyaSahabat virtual assistant, enabling questions processing, database management, and conversation handling.
 
-## Site
+**Live Site:** [https://tanya-sahabat.vercel.app/](https://tanya-sahabat.vercel.app/)
+**Demo Video:** [Watch Here](https://drive.google.com/file/d/1k3OCqK_uj-hchxEkp_jE9aVRDnOKyFOv/view?usp=sharing)
 
-Live : https://tanya-sahabat.vercel.app/
+## ✨ Features
+- Robust REST API built on FastAPI
+- Automatic Interactive API Documentation (Swagger UI)
+- Fast async processing of user queries
 
-API : https://github.com/nulitas/tanya-sahabat-api/
-
-##
-
-Demo Video : https://drive.google.com/file/d/1k3OCqK_uj-hchxEkp_jE9aVRDnOKyFOv/view?usp=sharing
-
-## Screenshot
-
-Beberapa screenshot untuk tampilan untuk TanyaSahabatApi.
-
-### API Docs
-
-Seperti ini.
-
-![](https://raw.githubusercontent.com/nulitas/tanya-sahabat-api/main/img/ApiDocs.png)
-
-### Databasee
-
-![](https://raw.githubusercontent.com/nulitas/tanya-sahabat-api/main/img/Database.png)
-
-## Usage
-
+## 🚀 Usage
+To run the server locally:
 ```bash
 uvicorn main:app --reload
 ```
 
-### Bug / Feature Request
+## 🛠️ Built With
+- **[FastAPI](https://fastapi.tiangolo.com/)** - Modern Python web framework
+- **Python 3.x**
 
-Jika menemukan bug (situs web tidak dapat menangani kueri dan/atau memberikan hasil yang tidak diinginkan), silakan buka masalah [di sini](https://github.com/nulitas/tanya-sahabat/issues/new) dengan menyertakan kueri penelusuran dan hasil yang diharapkan.
-
-## Built with
-
-- [React.js - TypeScript](https://react.dev/) - Build user interfaces out of individual pieces called components written in JavaScript.
-- [FastAPI](https://fastapi.tiangolo.com/) - Modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints.
-- [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
-
-## License
-
-MIT © [Andra ](https://github.com/nulitas)
+## 📝 License
+Distributed under the MIT License © [Andra](https://github.com/nulitas)
